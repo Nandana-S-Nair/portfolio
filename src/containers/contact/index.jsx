@@ -14,10 +14,10 @@ const Contact = () => {
             <div className="contact__content">
                 <Animate
                     play
-                    duration={1}
+                    duration={0.5}
                     delay={0}
                     start={{
-                        transform: "translateX(-200px)"
+                        transform: "translateX(-100px)"
                     }}
                     end={{
                         transform: "translateX(0px)"
@@ -32,10 +32,10 @@ const Contact = () => {
 
                 <Animate
                     play
-                    duration={1}
+                    duration={0.5}
                     delay={0}
                     start={{
-                        transform: "translateX(200px)"
+                        transform: "translateX(100px)"
                     }}
                     end={{
                         transform: "translateX(0px)"

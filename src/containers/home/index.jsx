@@ -1,16 +1,16 @@
 import React from "react";
 import './styles.scss'
-import { Animate } from "react-simple-animate"
-import { useNavigate } from "react-router-dom"
+// import { Animate } from "react-simple-animate"
+// import { useNavigate } from "react-router-dom"
 
 const Home = () => {
 
-    const navigate = useNavigate();
+    // const navigate = useNavigate();
 
 
-    const navigateToContactMe = () => {
-        navigate('/contact')
-    }
+    // const navigateToContactMe = () => {
+    //     navigate('/contact')
+    // }
     return (
         <section id="home" className="home">
             <div className="home__text-wrapper">
@@ -20,7 +20,7 @@ const Home = () => {
                     Full stack developer
                 </h1>
             </div>
-            <Animate
+            {/* <Animate
             play
             duration={1.5}
             delay={1}
@@ -34,7 +34,7 @@ const Home = () => {
                 <div className="home__contact-me">
                     <button onClick={navigateToContactMe}>Hire Me</button>
                 </div>
-            </Animate>
+            </Animate> */}
 
         </section>
     )

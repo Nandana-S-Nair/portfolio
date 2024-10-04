@@ -3,8 +3,8 @@ import { BsInfoCircleFill } from "react-icons/bs"
 import { Animate } from "react-simple-animate"
 import PageHeaderContent from "../../components/pageHeaderContent";
 import './styles.scss'
-import { DiApple, DiAndroid } from 'react-icons/di'
-import { FaDev, FaDatabase } from 'react-icons/fa'
+// import { DiApple, DiAndroid } from 'react-icons/di'
+// import { FaDev, FaDatabase , Fa} from 'react-icons/fa'
 const About = () => {
 
     const personalDeatils = [
@@ -45,8 +45,8 @@ const About = () => {
                 <div className="about__content__personalWrapper">
                     <Animate
                         play
-                        duration={1.5}
-                        delay={1}
+                        duration={0.5}
+                        delay={0}
                         start={{
                             transform: 'translateX(-900px)',
                         }}
@@ -62,8 +62,8 @@ const About = () => {
 
                     <Animate
                         play
-                        duration={1.5}
-                        delay={1}
+                        duration={0.5}
+                        delay={0}
                         start={{
                             transform: 'translateX(500px)',
                         }}
@@ -85,7 +85,7 @@ const About = () => {
                         </ul>
                     </Animate>
                 </div>
-                <div className="about__content__serviceWrapper">
+                {/* <div className="about__content__serviceWrapper">
                     <div className="about__content__serviceWrapper__inner__content">
                         <div>
                             <FaDev size={60} color="var(--yellow-theme-main-color)" />
@@ -100,7 +100,7 @@ const About = () => {
                             <DiApple size={60} color="var(--yellow-theme-main-color)" />
                         </div>
                     </div>
-                </div>
+                </div> */}
 
             </div>
 
