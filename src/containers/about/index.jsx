@@ -3,6 +3,8 @@ import { BsInfoCircleFill } from "react-icons/bs"
 import { Animate } from "react-simple-animate"
 import PageHeaderContent from "../../components/pageHeaderContent";
 import './styles.scss'
+import nandanaImage from './assets/DSC_4279.jpg';
+// import {nandana} from "./assets"
 // import { DiApple, DiAndroid } from 'react-icons/di'
 // import { FaDev, FaDatabase , Fa} from 'react-icons/fa'
 const About = () => {
@@ -85,9 +87,8 @@ const About = () => {
                         </ul>
                     </Animate>
                 </div>
-                {/* <div className="about__content__serviceWrapper">
-                    <div className="about__content__serviceWrapper__inner__content">
-                        <div>
+                <div className="about__content__serviceWrapper">
+                        {/* <div>
                             <FaDev size={60} color="var(--yellow-theme-main-color)" />
                         </div>
                         <div>
@@ -98,9 +99,9 @@ const About = () => {
                         </div>
                         <div>
                             <DiApple size={60} color="var(--yellow-theme-main-color)" />
-                        </div>
-                    </div>
-                </div> */}
+                        </div> */}
+                        <img  className="about__content__serviceWrapper__image" src={nandanaImage} alt="Nandana" />
+                </div>
 
             </div>
 

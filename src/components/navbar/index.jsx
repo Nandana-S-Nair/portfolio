@@ -44,11 +44,11 @@ const Navbar = () => {
     return (
         <div>
             <nav className="navbar">
-                <div className="navbar__container">
+                {/* <div className="navbar__container">
                     <Link to={'/'} className="navbar__container__logo">
                         <FaReact size={30} />
                     </Link>
-                </div>
+                </div> */}
                 <ul className={`navbar__container__menu ${toggleIcon ? "active" : ""}`}>
                     {data.map((item, key) => (
                         <li key={key} className="navbar__container__menu__item">
